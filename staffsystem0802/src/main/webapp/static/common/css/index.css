@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+/* 去除边角 */
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+.main {
+	height: 100%;
+}
+
+/* 清除浮动 */
+.clear::after {
+	content: "";
+	display: block;
+	width: 0;
+	clear: both;
+}
+
+/* 左侧区域 */
+.leftarea {
+	float: left;
+	width: 320px;
+	height: 100%;
+	background: url(../image/menubg.webp) center center/cover;
+	overflow: hidden;
+}
+
+/* 右侧区域 */
+.rightarea {
+	float: right;
+	width: calc(100% - 320px);
+	height: 100%;
+	background-color: rgb(232, 232, 232);
+}
+
+/* 欢迎使用语 */
+header{
+	position: relative;
+}
+
+header>h5{
+	position: absolute;
+	top: 65px;
+	right: 170px;
+	
+}
+
+
+/* 菜单栏顶部公司标志 */
+.cmplogopic {
+	margin-left: 47px;
+	width: 70%;
+	height: 220px;
+	background: url(../image/menulogo.jpg) center center/cover;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+/* 左侧菜单栏内容 */
+/* 主菜单 */
+.menucontent>.fstmenu {
+	text-align: center;
+	font-size: 30px;
+	color: azure;
+	margin: 50px 0;
+	cursor: pointer;
+}
+
+/* 子菜单 */
+.menucontent>.secmenu {
+	text-align: center;
+	font-size: 26px;
+	color: beige;
+	margin: 20px 0;
+	cursor: pointer;
+	
+}
+
+.menucontent>*:hover {
+	color: antiquewhite;
+}
+
+.secmenu>a {
+	/* 去掉下划线 */
+	text-decoration: none;
+	color: beige;
+}
+
+/* 右侧顶部登录用户信息 */
+.loginroot {
+	width: 100%;
+	height: 120px;
+	/* background-color: pink; */
+	background-color: rgb(244, 243, 239);
+}
+
+/* 登录用户头像设置 */
+.loginrootpic {
+	margin-top: 14px;
+	margin-right: 60px;
+	float: right;
+	width: 6%;
+	height: 75%;
+	background: url(../image/loginrootpic.png) center center/cover;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+/* 注销选项 */
+.loginrootout {
+	float: right;
+	font-size: 20px;
+	margin-right: 60px;
+	width: 98px;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.loginrootout:hover {
+	font-weight: bolder;
+}
+
+/* 顶部标题 */
+.top-title {
+	margin-left: 60px;
+}
+
+.top-titlec {
+	padding-top: 40px;
+	font-size: 25px;
+	/* 设置字体间距 */
+	letter-spacing: 4px;
+}
+
+.rgtcontent{
+	width: calc(100% - 16px);
+	height:calc(100% - 164px);
+}
+
+.rgt {
+	width: 100%;
+	height:100%;
+	padding: 8px;
+}
+
+.rgt>iframe {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+

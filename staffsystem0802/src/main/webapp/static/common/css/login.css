@@ -1,0 +1,88 @@
+html, body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	background: url(../image/background.jpg) no-repeat center center/cover;
+	overflow: hidden;
+}
+
+/* 登录logo设置 */
+.logo_box {
+	position: absolute;
+	background-color: #fff;
+	width: 100px;
+	height: 100px;
+	/* border-radius 设置边框的圆程度，数值越大，越圆 */
+	border-radius: 100px;
+	top: 100px;
+	left: 46%;
+	border: solid 5px #A68364;
+	text-align: center;
+}
+.logo_img {
+	margin-top: 20px;
+}
+
+/* 登录框 */
+.login_box {
+	width: 400px;
+	height: 400px;
+	background-color: #fff;
+	margin: auto;
+	margin-top: 150px;
+	border-radius: 5px;
+	/* .title设置margin-top无效，给父元素设置overflow:hidden; */
+	overflow: hidden; 
+}
+
+/* 欢迎文字部分 */
+.title {
+	text-align: center;
+	font-size: 28px;
+	color: #000;
+	margin-top: 80px;
+	margin-bottom: 10px;
+	/* letter-spacing属性是增加（值为正）或减少（值为负）字符间距； */
+	letter-spacing: 3px;
+	/* 设置字体 */
+	font-family: sans-serif;
+}
+
+/* 用户名与密码的输入框 */
+.input_box {
+	width: 300px;
+	height: 30px;
+	width: 300px;
+	height: 40px;
+	padding-left: 10px;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+/* 登录按钮的设置 */
+.button_box {
+	width: 300px;
+	height: 35px;
+	width: 300px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 50px;
+	border-radius: 5px;
+	background-color: #64a9d9;
+	cursor: pointer;
+	color: #fff;
+}
+
+/* 登录错误信息提示 */
+.errortip>.error{
+	font-size: 15px;
+	color:red;
+	margin-left: 167px
+}
+
+
+
+
+
+

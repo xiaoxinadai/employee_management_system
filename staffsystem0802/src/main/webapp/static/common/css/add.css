@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.warning {
+	font-style: normal;
+	color: red;
+}
+
+#staff-form>div {
+	margin-bottom: 20px;
+}
+
+#staff-form>div>label {
+	width: 120px;
+	text-align: right;
+	display: inline-block;
+}
+
+#staff-form>div>input, #staff-form>div>select {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #ccc;
+	width: 320px;
+	height: 40px;
+	font-size: 15px;
+	padding-left: 10px;
+	outline: none;
+}
+
+#staff-form>div>button {
+	box-sizing: border-box;
+	padding: 10px 45px;
+	outline: none;
+	border: none;
+	background-color: #0099CC;
+	color:#fff;
+	cursor:pointer;
+}
+
+
+
